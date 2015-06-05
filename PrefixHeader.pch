@@ -1,0 +1,31 @@
+//
+//  PrefixHeader.pch
+//  TestSocialNetwork
+//
+//  Created by Roman on 6/2/15.
+//  Copyright (c) 2015 Roman. All rights reserved.
+//
+
+#ifndef TestSocialNetwork_PrefixHeader_pch
+#define TestSocialNetwork_PrefixHeader_pch
+
+#import<Parse.h>
+#import "BaseViewController.h"
+#import <SVProgressHUD.h>
+#import "UIMessagesHelper.h"
+#import <UIAlertView+Blocks.h>
+#import <ParseFacebookUtils/PFFacebookUtils.h>
+#import <FacebookSDK/FacebookSDK.h>
+#import <VKSdk.h>
+#import <GPPURLHandler.h>
+#import <GPPSignIn.h>
+
+
+static NSString *notificationLogin = @"notificationLogin";
+static NSString *notificationLogout = @"notificationLogout";
+
+
+#define HUDSHOW {[SVProgressHUD show];}
+#define HUDHIDE {[SVProgressHUD dismiss];}
+
+#endif

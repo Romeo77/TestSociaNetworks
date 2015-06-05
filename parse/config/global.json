@@ -1,0 +1,14 @@
+{
+  "global": {
+    "parseVersion": "1.4.2"
+  },
+  "applications": {
+    "TestSocialNetwork": {
+      "applicationId": "dVwxkTaBICED2x1hif27TUzRWOhdNZ2IjivCHWwr",
+      "masterKey": "Y5L2XlsMRvwGzsCqSOVkdZFmFcyv97iA3zL45j5R"
+    },
+    "_default": {
+      "link": "TestSocialNetwork"
+    }
+  }
+}
