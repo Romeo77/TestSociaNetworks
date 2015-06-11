@@ -28,10 +28,10 @@
     
     [GPPSignIn sharedInstance].clientID = @"306038420167-5od117iusimv57aqb3duo5cm1uil27vp.apps.googleusercontent.com";
     
-    if([PFUser currentUser].isAuthenticated || [PFFacebookUtils isLinkedWithUser:[PFUser currentUser]] || [PFTwitterUtils isLinkedWithUser:[PFUser currentUser]]) {
-        
-        [self setNewRootVc:[self createToDoNavVc]animated:NO];
-    }
+//    if([PFUser currentUser].isAuthenticated || [PFFacebookUtils isLinkedWithUser:[PFUser currentUser]] || [PFTwitterUtils isLinkedWithUser:[PFUser currentUser]]) {
+//        
+//        [self setNewRootVc:[self createToDoNavVc]animated:NO];
+//    }
     
     [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(userDidLogin) name:notificationLogin object:nil];
     [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(userDidLogout) name:notificationLogout object:nil];

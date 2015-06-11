@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EBC2196E-EC95-44B3-AD0F-5A5C694DCC26</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TestSocialNetwork</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FB95736B9F703A24F9FF40E6B30E877C07A6D749</key>
+		<string>https://github.com/Romeo77/TestSociaNetworks.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TestSocialNetwork.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FB95736B9F703A24F9FF40E6B30E877C07A6D749</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Romeo77/TestSociaNetworks.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FB95736B9F703A24F9FF40E6B30E877C07A6D749</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FB95736B9F703A24F9FF40E6B30E877C07A6D749</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TestSocialNetwork</string>
+		</dict>
+	</array>
+</dict>
+</plist>

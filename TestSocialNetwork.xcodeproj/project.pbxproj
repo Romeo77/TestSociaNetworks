@@ -25,6 +25,8 @@
 		30A5C8011B21976600F9283C /* GoogleSingUp.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A5C7FD1B21976600F9283C /* GoogleSingUp.m */; };
 		30A5C8021B21976600F9283C /* TwitterSingUp.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A5C7FF1B21976600F9283C /* TwitterSingUp.m */; };
 		30A5C8061B2197A100F9283C /* UIMessagesHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A5C8051B2197A100F9283C /* UIMessagesHelper.m */; };
+		30A5C80E1B2608C700F9283C /* AddPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A5C80D1B2608C700F9283C /* AddPostViewController.m */; };
+		30A5C8111B26199000F9283C /* PostTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A5C8101B26199000F9283C /* PostTableViewCell.m */; };
 		CA5392B57A6243AB1F80950E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B2467242751B0F6087BC9F04 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -71,6 +73,10 @@
 		30A5C7FF1B21976600F9283C /* TwitterSingUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterSingUp.m; sourceTree = "<group>"; };
 		30A5C8041B2197A100F9283C /* UIMessagesHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIMessagesHelper.h; sourceTree = "<group>"; };
 		30A5C8051B2197A100F9283C /* UIMessagesHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIMessagesHelper.m; sourceTree = "<group>"; };
+		30A5C80C1B2608C700F9283C /* AddPostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPostViewController.h; sourceTree = "<group>"; };
+		30A5C80D1B2608C700F9283C /* AddPostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPostViewController.m; sourceTree = "<group>"; };
+		30A5C80F1B26199000F9283C /* PostTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostTableViewCell.h; sourceTree = "<group>"; };
+		30A5C8101B26199000F9283C /* PostTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostTableViewCell.m; sourceTree = "<group>"; };
 		41A911F8F6F83C58738B5627 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		B2467242751B0F6087BC9F04 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C47E515476DDE09A243C8803 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -169,10 +175,14 @@
 				30A5C7EE1B21971400F9283C /* BaseViewController.m */,
 				30A5C7EF1B21971400F9283C /* InformationTableViewController.h */,
 				30A5C7F01B21971400F9283C /* InformationTableViewController.m */,
+				30A5C80C1B2608C700F9283C /* AddPostViewController.h */,
+				30A5C80D1B2608C700F9283C /* AddPostViewController.m */,
 				30A5C7F11B21971400F9283C /* LoginViewController.h */,
 				30A5C7F21B21971400F9283C /* LoginViewController.m */,
 				30A5C7F31B21971400F9283C /* SingUpViewController.h */,
 				30A5C7F41B21971400F9283C /* SingUpViewController.m */,
+				30A5C80F1B26199000F9283C /* PostTableViewCell.h */,
+				30A5C8101B26199000F9283C /* PostTableViewCell.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -359,8 +369,10 @@
 				309FE92E1B1D9FAD00DEB504 /* AppDelegate.m in Sources */,
 				30A5C7F71B21971400F9283C /* LoginViewController.m in Sources */,
 				30A5C8011B21976600F9283C /* GoogleSingUp.m in Sources */,
+				30A5C80E1B2608C700F9283C /* AddPostViewController.m in Sources */,
 				30A5C8001B21976600F9283C /* FacebookSingUp.m in Sources */,
 				309FE92B1B1D9FAD00DEB504 /* main.m in Sources */,
+				30A5C8111B26199000F9283C /* PostTableViewCell.m in Sources */,
 				30A5C7F51B21971400F9283C /* BaseViewController.m in Sources */,
 				30A5C8021B21976600F9283C /* TwitterSingUp.m in Sources */,
 				30A5C7F81B21971400F9283C /* SingUpViewController.m in Sources */,

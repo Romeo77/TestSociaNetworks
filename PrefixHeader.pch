@@ -19,6 +19,7 @@
 #import <VKSdk.h>
 #import <GPPURLHandler.h>
 #import <GPPSignIn.h>
+#import "MPMoviePlayerController+Subtitles.h"
 
 
 static NSString *notificationLogin = @"notificationLogin";
@@ -27,5 +28,8 @@ static NSString *notificationLogout = @"notificationLogout";
 
 #define HUDSHOW {[SVProgressHUD show];}
 #define HUDHIDE {[SVProgressHUD dismiss];}
+
+#define SHOW_ERROR UIMsg(([NSString stringWithFormat:@"Error: %@ %@",error,[error userInfo]]))
+#define SHOW_ERROR_RETURN { if(error){ SHOW_ERROR return;}}
 
 #endif

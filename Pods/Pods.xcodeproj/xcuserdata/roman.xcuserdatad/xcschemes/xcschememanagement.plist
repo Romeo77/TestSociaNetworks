@@ -14,6 +14,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-MPMoviePlayerController-Subtitles.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Parse.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -52,47 +57,52 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>15E8F165404CEE2D2F6D7AC7</key>
+		<key>316997AF8C2AFF3A9A33B926</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>3CDEA8964ABFF45172A3D2C6</key>
+		<key>36871EE2E81BA5956F4A8711</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>757E5E9CFD1CC541CBBE7F44</key>
+		<key>697A21D85D03454632C2AE32</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7C4B0A0D18BD4E1B10C32227</key>
+		<key>69890A55AA81D2D51C5021EE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>91900B4EF823F6A78EA409AD</key>
+		<key>7D81DB7036570D32EC8CE1D9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>AF8C1F96BA61EFE9D874B466</key>
+		<key>8EAB7484BA1D92EF4923BA02</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C91AA2BE0DB595D7B1453D61</key>
+		<key>959D82E82DD5BFF60A3AA677</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>EAF3FC5815F9927687A3A070</key>
+		<key>B7A71AE7742C2B63C79374FE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>EB2E2D460BE3ADA976960620</key>
+		<key>C180866E7BFD85B245D77F65</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>ED9C5F95CC01F06032E55DED</key>
 		<dict>
 			<key>primary</key>
 			<true/>

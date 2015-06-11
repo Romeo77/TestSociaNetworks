@@ -30,6 +30,12 @@
 #define COCOAPODS_VERSION_MINOR_Facebook_iOS_SDK 23
 #define COCOAPODS_VERSION_PATCH_Facebook_iOS_SDK 2
 
+// MPMoviePlayerController-Subtitles
+#define COCOAPODS_POD_AVAILABLE_MPMoviePlayerController_Subtitles
+#define COCOAPODS_VERSION_MAJOR_MPMoviePlayerController_Subtitles 1
+#define COCOAPODS_VERSION_MINOR_MPMoviePlayerController_Subtitles 0
+#define COCOAPODS_VERSION_PATCH_MPMoviePlayerController_Subtitles 4
+
 // Parse
 #define COCOAPODS_POD_AVAILABLE_Parse
 #define COCOAPODS_VERSION_MAJOR_Parse 1

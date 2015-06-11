@@ -38,9 +38,7 @@ static NSString *const ALL_USER_FIELDS = @"first_name,last_name,photo_200_orig";
     [PFUser logInWithUsernameInBackground:self.tfUserName.text password:self.tfPassword.text
                                     block:^(PFUser *user, NSError *error) {
                                         HUDHIDE
-                                        
                                         UIErrReturn(@"Cannot login");
-                                        
                                         [[NSNotificationCenter defaultCenter]postNotificationName:notificationLogin object:nil];
                                     }];
 }
@@ -69,7 +67,7 @@ static NSString *const ALL_USER_FIELDS = @"first_name,last_name,photo_200_orig";
     }
     else
     {
-        [[NSNotificationCenter defaultCenter]postNotificationName:notificationLogin object:nil];
+        [self logInVK];
     }
 }
 
@@ -117,6 +115,32 @@ static NSString *const ALL_USER_FIELDS = @"first_name,last_name,photo_200_orig";
 }
 
 #pragma mark - VK helper methods
+
+- (void) logInVK
+{
+    VKRequest * request = [[VKApi users] get:@{ VK_API_FIELDS : ALL_USER_FIELDS }];
+    [request executeWithResultBlock:^(VKResponse * response)
+     {
+         [PFUser logInWithUsernameInBackground:[[response.json firstObject] objectForKey:@"last_name"] password:@"12345"
+                                         block:^(PFUser *user, NSError *error) {
+                                             HUDHIDE
+                                             
+                                             UIErrReturn(@"Cannot login");
+                                             
+                                             [[NSNotificationCenter defaultCenter]postNotificationName:notificationLogin object:nil];
+                                         }];
+         
+     } errorBlock:^(NSError * error) {
+         if (error.code != VK_API_ERROR) {
+             [error.vkError.request repeat];
+         }
+         else {
+             NSLog(@"VK error: %@", error);
+         }
+     }];
+    
+    
+}
 
 - (void) vkSdkNeedCaptchaEnter:(VKError *)captchaError
 {

@@ -63,6 +63,10 @@ static NSString * const kClientID =
     _singIn.delegate = self;
     [_singIn authenticate];
     [_singIn trySilentAuthentication];
+    if (!_flag)
+    {
+        [self logIn];
+    }
 }
 
 - (void)finishedWithAuth: (GTMOAuth2Authentication *)auth  error: (NSError *) error
@@ -88,7 +92,6 @@ static NSString * const kClientID =
         _flag = NO;
         HUDHIDE
     }
-    [[NSNotificationCenter defaultCenter]postNotificationName:notificationLogin object:nil];
 }
 
 - (void) saveUserInfoFromGoogleWithFirstName :(NSString*)firstName andSecond :(NSString*)secondName andUrl :(NSString*)  urlImage andBirthDay :(NSString*)birthday
@@ -105,6 +108,7 @@ static NSString * const kClientID =
             [[PFUser currentUser] saveInBackground];
         }
     }];
+    [[NSNotificationCenter defaultCenter]postNotificationName:notificationLogin object:nil];
 }
 
 - (PFFile *) wrapImageToPFfile :(NSString*) userImageURL
@@ -115,6 +119,18 @@ static NSString * const kClientID =
     NSData *imageData = UIImagePNGRepresentation(img);
     PFFile *imageFile = [PFFile fileWithName:@"image.png" data:imageData];
     return imageFile;
+}
+
+- (void) logIn
+{
+    [PFUser logInWithUsernameInBackground:_singIn.userEmail password:@"12345"
+                                    block:^(PFUser *user, NSError *error) {
+                                        HUDHIDE
+                                        
+                                        UIErrReturn(@"Cannot login");
+                                        
+                                        [[NSNotificationCenter defaultCenter]postNotificationName:notificationLogin object:nil];
+                                    }];
 }
 
 @end

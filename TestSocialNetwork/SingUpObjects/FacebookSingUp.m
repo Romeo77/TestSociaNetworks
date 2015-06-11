@@ -16,8 +16,7 @@
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         manager = [FacebookSingUp new];
-    });
-    
+    });    
     return  manager;
 }
 

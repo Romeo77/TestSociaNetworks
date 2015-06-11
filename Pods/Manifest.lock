@@ -8,6 +8,7 @@ PODS:
   - Facebook-iOS-SDK (3.23.2):
     - Bolts (~> 1.0)
   - googleplus-ios-sdk (1.7.1)
+  - MPMoviePlayerController-Subtitles (1.0.4)
   - Parse (1.7.4):
     - Bolts/Tasks (>= 1.1.5)
   - ParseFacebookUtils (1.7.4):
@@ -21,6 +22,7 @@ PODS:
 DEPENDENCIES:
   - Facebook-iOS-SDK (~> 3.21)
   - googleplus-ios-sdk (~> 1.7)
+  - MPMoviePlayerController-Subtitles (~> 1.0)
   - Parse (~> 1.7)
   - ParseFacebookUtils (~> 1.6)
   - SVProgressHUD (~> 1.1)
@@ -31,6 +33,7 @@ SPEC CHECKSUMS:
   Bolts: aac24961496d504aa56fc267cde95162a71bac39
   Facebook-iOS-SDK: cd87f0b2f0c1d9574b44e8fa2baacc275524bac3
   googleplus-ios-sdk: 065d9135061a5f84c07656a68ced48336408fe35
+  MPMoviePlayerController-Subtitles: dc717d1173ea64bb0ff3670a379fa7f8d06f96fa
   Parse: 6ca512c6e860b66739c95151b2f76ac4712b7842
   ParseFacebookUtils: 7115990b291ae95b920fde413272828d0eb0d963
   SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
